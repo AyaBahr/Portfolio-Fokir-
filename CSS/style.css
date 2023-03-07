@@ -1,0 +1,650 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: url(../img/slider/slider-01.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+nav ul a:hover {
+    color: #ff305b !important;
+}
+
+nav ul .active {
+    color: #ff305b !important;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: #ff305b;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+nav ul li a {
+    color: #ffffff !important;
+}
+
+header h1 {
+    color: #ff305b;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 15px;
+}
+
+header p,
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: aliceblue;
+}
+
+header p::after {
+    content: "";
+    animation: typing 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "|"
+    }
+
+    3% {
+        content: "D|"
+    }
+
+    6% {
+        content: "De|"
+    }
+
+    9% {
+        content: "Dev|"
+    }
+
+    12% {
+        content: "Deve|"
+    }
+
+    15% {
+        content: "Devel|"
+    }
+
+    18% {
+        content: "Develo|"
+    }
+
+    21% {
+        content: "Develop|"
+    }
+
+    24% {
+        content: "Develope|"
+    }
+
+    27% {
+        content: "Developer|"
+    }
+
+    30% {
+        content: "Develope|"
+    }
+
+    33% {
+        content: "Develop|"
+    }
+
+    36% {
+        content: "Develo|"
+    }
+
+    39% {
+        content: "Devel|"
+    }
+
+    41% {
+        content: "Devel|"
+    }
+
+    45% {
+        content: "Deve|"
+    }
+
+    48% {
+        content: "Dev|"
+    }
+
+    51% {
+        content: "De|"
+    }
+
+    54% {
+        content: "D|"
+    }
+
+    57% {
+        content: "De|"
+    }
+
+    60% {
+        content: "Des|"
+    }
+
+    63% {
+        content: "Desi|"
+    }
+
+    66% {
+        content: "Desig|"
+    }
+
+    70% {
+        content: "Design|"
+    }
+
+    73% {
+        content: "Designe|"
+    }
+
+    76% {
+        content: "Designer|"
+    }
+
+    79% {
+        content: "Designe|"
+    }
+
+    81% {
+        content: "Design|"
+    }
+
+    84% {
+        content: "Desig|"
+    }
+
+    87% {
+        content: "Desi|"
+    }
+
+    90% {
+        content: "Des|"
+    }
+
+    93% {
+        content: "De|"
+    }
+
+    96% {
+        content: "D|"
+    }
+
+    100% {
+        content: "|"
+    }
+}
+
+.borders {
+    height: 340px;
+    border: 8px solid rgba(66, 66, 66, 0.9);
+    border-radius: 5px;
+    z-index: 0;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    z-index: 100;
+    border-radius: 5px;
+}
+
+.layer1 {
+    background-color: rgba(45, 45, 45, 0.5);
+    position: absolute;
+    top: 100%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 10000;
+    transition: top 1s;
+}
+
+.layer1 a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0px .5rem;
+}
+
+
+.profile-pic:hover .layer1 {
+    top: 0px;
+}
+
+.layer1 .social:hover {
+    color: #ff305b;
+}
+
+
+.profile-content h3::after {
+    content: "";
+    width: 3px;
+    height: 100%;
+    background-color: #ff305b;
+    position: absolute;
+    left: 0;
+
+}
+
+.profile-content h3 {
+    font-size: 30px;
+    color: black;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+}
+
+.profile-content>p {
+    color: #555555;
+    border-bottom: 1px dashed #999999;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+
+}
+
+.profile-content ul .item1 {
+    color: #000000;
+    font-weight: 900;
+    width: 100%;
+}
+
+.profile-content p a {
+    color: #999999;
+}
+
+#about button {
+    background-color: #ff305b;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    transition: all 0.5s;
+}
+
+#about button:hover {
+    background-color: red;
+}
+
+
+
+
+#services {
+    background-color: #f4f2f2;
+}
+
+.services {
+    /* background-color: aqua; */
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.services-title h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.services-title h2::after {
+    content: "";
+    background-color: #ff305b;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+
+}
+
+.services-title h2::before {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.services-content {
+    transition: all 2s;
+}
+
+.zoom {
+    /* background-color: tomato; */
+    width: 25%;
+    text-align: center;
+    transition: all .5s;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.services-content h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.services-content p {
+    color: #555555;
+    overflow: hidden;
+    font-size: 18px;
+
+}
+
+.icon {
+    color: #ff305b;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.zoom:hover {
+    background-color: #ffffff;
+    box-shadow: 1px 0px 10px 5px rgb(197, 195, 195);
+}
+
+.zoom:hover .icon {
+    transform: scale(1.3);
+}
+
+.portofolio-title h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.portofolio-title h2::after {
+    content: "";
+    background-color: #ff305b;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+
+}
+
+.portofolio-title h2::before {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+
+#portofolio button.active {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #ff305b;
+}
+
+#portofolio .nav-link {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 3px 12px;
+    position: relative;
+    text-transform: uppercase;
+    border: none;
+    margin: 20px 0px;
+}
+
+#counter {
+    background-color: #f4f2f2;
+
+}
+
+.content-layer {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    transition: all 1s;
+
+}
+
+.content-layer:hover {
+    opacity: 1;
+}
+
+
+.counter i {
+    color: #ff305b;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+
+
+.counter h2 {
+    font-size: 26px;
+    font-weight: 800;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+
+.counter p {
+    color: #555555;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.container1 {
+    width: 60%;
+    margin: 20px auto;
+    height: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.carousel-item {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+}
+
+.carousel-item::after {
+    border-color: #ff305b rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-image: none;
+    border-style: solid;
+    border-width: 191px;
+    content: "";
+    height: 72px;
+    left: -199px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    width: 77px;
+    z-index: 1;
+}
+
+.carousel-item .img {
+    border-radius: 50%;
+    float: left;
+    margin: 12px auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+}
+
+.fa-star {
+    color: #f1c30d;
+    margin-bottom: 12px;
+    margin-left: 1px;
+}
+
+.carousel-indicators button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #ff305b !important;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px !important;
+    margin: 0 3px;
+    width: 10px !important;
+}
+
+.carousel-indicators button.active {
+    background: #ff305b none repeat scroll 0 0;
+    border-radius: 10px;
+    padding: 0px 8px;
+}
+
+.testomonial-content {
+    padding-left: 130px;
+}
+
+#blog {
+    background-color: #f4f2f2;
+}
+
+#blog .content {
+    padding: 20px;
+}
+
+#blog .blog-content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    transition: all 1s;
+}
+
+#blog a {
+    text-decoration: none;
+    color: #333333;
+    transition: all 1s;
+}
+
+#blog h2:hover {
+    color: #ff305b;
+    cursor: pointer;
+}
+
+#blog a:hover {
+    color: #ff305b;
+}
+
+
+#contact input,
+textarea {
+    margin: 10px 0;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    box-shadow: none;
+    color: #000000;
+    outline: 0 none;
+    border-color: #ff305b;
+}
+
+#contact button {
+    background-color: #ff305b;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 0;
+    transition: all 1s;
+    margin: 10px 0px;
+}
+
+#contact button:hover {
+    background-color: red;
+}
+
+footer {
+    background: #333333;
+    padding: 50px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ff305b;
+}
+
+footer i {
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    margin: auto;
+}
+
+footer i:hover {
+    color: #ff305b;
+    cursor: pointer;
+}
+
+footer p a:hover {
+text-decoration: underline;
+}
