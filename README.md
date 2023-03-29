@@ -1,5 +1,6 @@
 # Portofolio-Fokir-
-Html , Css 
+Html , Css , basic JS and jQuery 
 
 
-Live Demo "https://ayabahr.github.io/Portofolio-Fokir-/"
+Live Demo "https://ayabahr.github.io/Portfolio-Fokir-/"
+
